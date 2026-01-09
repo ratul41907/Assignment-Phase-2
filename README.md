@@ -1,5 +1,5 @@
 # Bangladeshi Taka Note Detection
-## Deployment & Documentation (Phase 5)
+## Deployment & Documentation 
 
 This project deploys a trained Bangladeshi Taka Note Detection model using a REST API and Docker.  
 The API accepts an image file and returns detected denominations with confidence scores and bounding box coordinates.
