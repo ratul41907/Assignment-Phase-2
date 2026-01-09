@@ -1,4 +1,5 @@
 # Bangladeshi Taka Note Detection
+
 ## Deployment & Documentation 
 
 This project deploys a trained Bangladeshi Taka Note Detection model using a REST API and Docker.  
@@ -69,4 +70,4 @@ The project submission includes:
 - Model weights
 - Project documentation
 
-## Google Doc- 
+## Google Doc- https://docs.google.com/document/d/1IcKDvAW7MhOCPrgUCEQwzt5rj0LsQ9JAnUBLigPmzRM/edit?usp=sharing
