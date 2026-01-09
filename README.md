@@ -21,13 +21,13 @@ taka-note-detector/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-
 ---
 
 ## How to Build the Docker Image
 
 From the project root directory, run:
 
+docker build -t taka-note-detector .
 
 ---
 
@@ -35,19 +35,20 @@ From the project root directory, run:
 
 Run the container using:
 
+docker run -p 8000:8000 taka-note-detector
 
-This will start the API service and expose it on port 8000.
+This starts the container and exposes the REST API on port 8000.
 
 ---
 
 ## How to Use the API Endpoint
 
-Endpoint Details:
+Endpoint details:
 
-- Endpoint: `/predict`
-- HTTP Method: `POST`
-- Input: Image file (`.jpg`, `.jpeg`, `.png`)
-- Output: JSON response containing detected denominations, confidence scores, and bounding box coordinates
+- Endpoint: /predict  
+- HTTP Method: POST  
+- Input: Image file (.jpg, .jpeg, .png)  
+- Output: JSON response containing detected denominations, confidence scores, and bounding box coordinates  
 
 ---
 
@@ -55,15 +56,17 @@ Endpoint Details:
 
 - The model is loaded once when the application starts
 - Uploaded images are validated before inference
-- Bounding box format is `[xmin, ymin, xmax, ymax]`
-- Clear comments are included in all source code files
+- Bounding box format is [xmin, ymin, xmax, ymax]
+- Clear comments are included throughout the code
 
 ---
 
 ## Submission Contents
 
 The project submission includes:
-- REST API source code
+- API source code
 - Dockerfile
-- Trained model weights
-- Project documentation (README.md)
+- Model weights
+- Project documentation
+
+## Google Doc- 
